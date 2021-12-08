@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailActivity1"
+    android:background="#CCCACA">
+    <RelativeLayout
+        android:id="@+id/tab_title"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="10dp">
+        <ImageView
+            android:id="@+id/warning"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/back"
+            android:layout_marginLeft="25dp"
+            android:layout_centerVertical="true"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="实时资讯"
+            android:textSize="33sp"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"/>
+
+
+    </RelativeLayout>
+    <ScrollView
+        android:layout_below="@+id/tab_title"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="江苏省考笔试疫情防控有了新通知！"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:textSize="25sp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="30dp"/>
+    <ImageView
+        android:id="@+id/picture"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:src="@drawable/dog"
+        android:layout_below="@+id/title"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="20dp"/>
+    <TextView
+        android:layout_below="@+id/picture"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="江苏省考笔试疫情防控有了新通知！江苏省考笔试疫情防控有了新通知！江苏省考笔试疫情防控有了新通知！
+江苏省考笔试疫情防控有了新通知！江苏省考笔试疫情防控有了新通知！江苏省考笔试疫情防控有了新通知！江苏省考笔试疫情防控有了新通知！江苏省考笔试疫情防控有了新通知！
+江苏省考笔试疫情防控有了新通知！江苏省考笔试疫情防控有了新通知！江苏省考笔试疫情防控有了新通知！
+江苏省考笔试疫情防控有了新通知！江苏省考笔试疫情防控有了新通知！江苏省考笔试疫情防控有了新通知！江苏省考笔试疫情防控有了新通知！
+江苏省考笔试疫情防控有了新通知！江苏省考笔试疫情防控有了新通知！江苏省考笔试疫情防控有了新通知！江苏省考笔试疫情防控有了新通知！
+江苏省考笔试疫情防控有了新通知！江苏省考笔试疫情防控有了新通知！江苏省考笔试疫情防控有了新通知！
+江苏省考笔试疫情防控有了新通知！江苏省考笔试疫情防控有了新通知！江苏省考笔试疫情防控有了新通知！
+江苏省考笔试疫情防控有了新通知！vv"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:textSize="25sp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="30dp"
+        />
+        </RelativeLayout>
+
+    </ScrollView>
+</RelativeLayout>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#E3E3E3"
+    android:layout_marginBottom="10dp">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="15dp"
+                android:background="#F8F7F7"
+                android:layout_marginLeft="10dp">
+                <ImageView
+                    android:id="@+id/icon_english11"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:src="@drawable/choose"
+                    android:layout_marginLeft="15dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginTop="10dp"/>
+                <TextView
+                    android:id="@+id/real_question_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2020年全国硕士研究生招生考试-数学（二）"
+                    android:textColor="#000000"
+                    android:layout_centerVertical="true"
+                    android:textSize="16sp"
+                    android:layout_toRightOf="@+id/icon_english11"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="10dp" />
+            </RelativeLayout>
+
+</RelativeLayout>

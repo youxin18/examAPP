@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".certificeActivity"
+    android:background="#C8DFEA">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+    <ImageView
+        android:id="@+id/cert1"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/cert1"
+
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="40dp"/>
+            <ImageView
+                android:id="@+id/cert2"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:src="@drawable/cert2"
+
+                android:layout_marginTop="40dp"
+                android:layout_marginLeft="30dp"
+                android:layout_toRightOf="@+id/cert1"/>
+            <ImageView
+                android:id="@+id/cert3"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:src="@drawable/cert3"
+                android:layout_below="@+id/cert1"
+
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="40dp"/>
+            <ImageView
+                android:id="@+id/cert4"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:src="@drawable/cert4"
+                android:layout_below="@+id/cert2"
+                android:layout_toRightOf="@+id/cert3"
+
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="30dp"/>
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>
